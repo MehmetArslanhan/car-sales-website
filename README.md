@@ -21,11 +21,11 @@ Bu proje, kullanıcıların araç ilanları ekleyip yönetebileceği, admin pane
 
 ## 🖼 Ekran Görüntüleri
 
-### 📊 Admin Panel Genel Görünüm  
+### 📊 Genel Görünüm  
 ![Admin Panel Dashboard](screenshots/admin_panel_dashboard.png)
 
-### 🚘 Aktif Araç İlanları  
+### 🚘 Admin Panel Genel Görünüm  
 ![Car Listing Active](screenshots/car_listing_active.png)
 
-### ✏️ Araç Düzenleme Sayfası  
+### ✏️ Aktif Araç İlanları  
 ![Car Listing Edit](screenshots/car_listing_edit.png)
