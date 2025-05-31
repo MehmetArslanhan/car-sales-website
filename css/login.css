@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 10px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid red;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/bg.png);
+    background-position: center;    
+    background-size: cover;  
+}
+
+nav ul li a{
+    color: white;  
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.row{
+    display: flex;
+    column-gap: 10px;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 120px;
+}
+
+p{
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.desc{
+    color: white;
+    font-size: 16px;
+}
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+
+.card{
+    width: 500px;
+    height: 280px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid red;
+    position: relative;
+    margin: 10px 15px;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color: white;
+}
+
+h3{
+    color: white;
+}
+
+.card .card-buttom{
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card .card-head{
+    border-radius: 6px;
+}
+
+.card.card-1{
+    background-image: url('../images/mustang.jpg');
+
+}
+
+.logo1{
+    width: 200px;
+    height: 200px;
+}
+
+h2{
+    color: white;
+}
+
+input {
+    background-color: transparent; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    font-size: 18px; 
+    width: 100%; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+}
+
+
+input:focus {
+    border-color: #007bff; 
+    outline: none;
+}
